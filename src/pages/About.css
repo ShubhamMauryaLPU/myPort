@@ -1,0 +1,48 @@
+.about-mainDiv{
+    background-color:#ede7c5;
+}
+.about-heading{
+    text-align: center;
+}
+.about-heading-para{
+    text-align: center;
+}
+.about-img{
+    height: 420px;
+    width: 300px;
+    border-radius: 25px;
+    padding: 10px;
+    
+}
+.about-image-div{
+    text-align: center;
+}
+.about-about-me{
+    padding: 0 15px 0 15px;
+    font-size: 1rem;
+}
+.about-about-me-heading{
+    padding-left: 20px;
+}
+.about-detail{
+    padding: 0 10px 0 10px;
+}
+@media screen and (max-width:945px) {
+    .about-about-me{
+        width: 100%;
+    }
+    .about-detail{
+        width: 45%;
+    }
+    .about-image-div{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 575px) {
+    .about-detail{
+        width: 100%;
+    }
+    .about-image-div{
+        width: 100%;
+    }
+}

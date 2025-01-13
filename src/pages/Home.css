@@ -1,0 +1,19 @@
+.home-mainDiv{
+    background-color:#ede7c5;
+}
+.home-myimage{
+    width: 90%;
+    border-radius: 50%;
+    border: 2px solid;
+}
+@media screen and (max-width:500px) {
+    .home-content-div{
+        width: 100%;
+    }
+    .home-image-div{
+        width: 100%;
+    }
+    .home-myimage{
+        margin: 0 0 1rem 1.3rem;
+    }
+}

@@ -1,0 +1,21 @@
+.dots-mainDiv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0 0 210px 0;
+}
+.line{
+    position: absolute;
+    height: 90%;
+    width: 2px;
+    background-color: black;
+    top: 40px;
+    margin-left: 7px;
+}
