@@ -12,7 +12,7 @@ const Home = () => {
           <p>Currently i am pursuing my <b>Master of Computer Application at lovely professional university.</b></p>
         </div>
         <div className="col-4 home-image-div">
-          <img src="../image/myImg4.png" alt="" className="home-myimage" />
+          <img src="../image/myImg4.webp" alt="" className="home-myimage" />
         </div>
       </div>
     </div>
