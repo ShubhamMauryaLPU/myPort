@@ -12,6 +12,8 @@
     width: 90%;
     background-color: #f9d078;
     border-radius: 5px;
+    min-height: 15rem;
+    line-height: 2rem;
 }
 .experience-exp:hover{
     box-shadow: 5px 5px 8px black ;

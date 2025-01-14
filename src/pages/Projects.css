@@ -13,6 +13,8 @@
     padding: 3px 5px 3px 5px;
     border-radius: 5px;
     background-color: #f9d078;
+    line-height: 2rem;
+    min-height: 15rem;
 }
 .projects-project:hover{
     box-shadow: 5px 5px 8px black ;
