@@ -1,79 +1,54 @@
-.navbar-mainDiv{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items:start;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 1%;
-    margin-bottom: 0 !important;
-    
+.navbar-mainDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 1%;
+  margin-bottom: 0 !important;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+.navbar-toggler-icon ion-icon {
+  font-size: 2.1rem;
 }
 .navBar-main-logo {
-    position: absolute;
-    left: 0;
-    color: rgb(246, 65, 65);
-    text-decoration: none;
-    font-size: 1.3rem;
-    padding-left: 5%;
-    display: inline-block;
-    text-transform: uppercase;
-    
+  left: 0;
+  color: rgb(246, 65, 65);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  text-decoration: none !important;
 }
-.navbar-contact-button{
+Link {
+  text-decoration: none;
+}
+.navbar-contact-button {
+  margin-right: 6%;
+  font-size: 1rem;
+  padding: 3px 10px 3px 10px;
+  border: none;
+  border-radius: 3px;
+  color: #222222;
+}
+
+.navbar-mobile-button {
+  display: none;
+}
+.navbar-ul {
+  display: inline-block;
+}
+@media screen and (min-width: 995px) {
+  .navbar-contact-button {
     position: absolute;
     right: 0;
     margin-right: 6%;
     font-size: 1rem;
     padding: 3px 10px 3px 10px;
     border: none;
-    border-radius: 3px ;
-}
-.navbar-mobile-button{
-    display: none;
-}
-.navbar-ul {
-    display: inline-block;
-}
-@media screen and (max-width: 995px) {
-    .navbar-ul {
-        display: none; 
-        color: black;
-    }
-
-    .navbar-mobile-button {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        right: 5%;
-        cursor: pointer; 
-    }
-
-    .navbar-mainDiv {
-        justify-content: flex-end;
-        padding: 2%;
-    }
-    .navItems-li{
-        color: black;
-        
-    }
-    .navbar-toggle-icon {
-        padding: 20px;
-        font-size: 1.5rem;
-        color: white;
-    }
-}
-@media screen  and (max-width:995px){
-    .navbar-mainDiv {
-        display: flex;
-        justify-items: start;
-        padding: 20px 0 40px 0;
-    }
-}
-@media screen  and (min-width:995px){
-    .navBar-main-logo{
-        padding-top: 9px;
-    }
+    border-radius: 3px;
+    color: #222222;
+  }
 }
