@@ -11,7 +11,10 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/shubhamkrmaurya/">
           <ion-icon name="logo-linkedin"></ion-icon>
         </a>
-        <ion-icon name="mail-outline"></ion-icon>
+        <Link to={"/contact"}>
+          <ion-icon name="mail-outline"></ion-icon>
+        </Link>
+        
         <a href="https://x.com/Skmaurya08">
           <ion-icon name="logo-xing"></ion-icon>
         </a>
