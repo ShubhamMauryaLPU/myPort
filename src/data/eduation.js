@@ -26,7 +26,7 @@ const educationDetail = [
     },
     {
       degreeName: "Board of education of Intermediate",
-      percentage:"60%",
+      percentage:"64%",
       collegeName: "Mahendra Technial Inter College",
       place:"Chandauli UP",
       year:"2015-2017",
