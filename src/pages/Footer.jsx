@@ -22,7 +22,7 @@ const Footer = () => {
           <ion-icon name="logo-instagram"></ion-icon>
         </a>
       </div>
-      <div>
+      <div className="f-li-items-div">
         <span className="f-li-items">
           <Link to={"/"} className="footer-link">
             Home

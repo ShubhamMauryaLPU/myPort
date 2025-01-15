@@ -17,3 +17,20 @@
         margin: 0 0 1rem 1.3rem;
     }
 }
+@media screen and (min-height:1000px) {
+    .home-mainDiv{
+        display: flex;
+        align-items: center;
+        height:70vh;
+    }
+    .home-content-div{
+        width: 100%;
+        font-size: 1.3rem;
+    }
+    .home-image-div{
+        width: 70%;
+    }
+    .home-myimage{
+        margin: 0 1.6rem 1rem 1.3rem;
+    }
+}

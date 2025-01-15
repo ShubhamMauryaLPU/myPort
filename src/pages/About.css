@@ -54,3 +54,20 @@
         width: 100%;
     }
 }
+@media screen and (min-height:1000px) {
+    .about-about-me{
+        width: 100%;
+    }
+    .about-detail{
+        width: 100%;
+    }
+    .about-image-div{
+        width: 100%;
+    }
+    .f-li-items-div{
+        margin-top: 5rem;
+    }
+    .f-social{
+        padding-top: 2rem;
+    }
+}

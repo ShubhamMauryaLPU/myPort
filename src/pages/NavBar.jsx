@@ -4,15 +4,11 @@ import NavItems from "../components/NavItems";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
 const NavBar = () => {
-  let [show, setShow] = useState(false);
-  let navbarButtonToggle = () => {
-    setShow(!show);
-  };
   return (
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <Link to={"/"} style={{textDecoration:"none"}}>
-          <span className="navBar-main-logo  " >
+          <span className="navBar-main-logo  px-3" >
             Shub<span style={{ color: "white" }}>ham</span>
           </span>
         </Link>

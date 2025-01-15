@@ -1,13 +1,13 @@
 .f-mainDiv{
     position: relative;
-    height: 32vh;
+    height: 30vh;
     background-color: rgba(0, 0, 0, 0.9);
     text-align: center;
 }
 .f-social{
-   
     display: flex;
     justify-content: center;
+    padding-top: 1.2rem;
 }
 .f-social ion-icon{
     height: 30px;

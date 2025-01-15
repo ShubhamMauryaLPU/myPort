@@ -25,3 +25,13 @@
     float: right;
     color: darkgreen;
 }
+@media screen and (min-height:1000px) {
+    .project-mainDiv{
+        height: 70vh;
+    }
+    .projects-project{
+        padding: 2rem;
+        margin-top: 1.3rem;
+    }
+    
+}
