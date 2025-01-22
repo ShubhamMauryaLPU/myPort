@@ -26,7 +26,7 @@ const About = () => {
               I have the good knowledge of databases like SQL and Mongo DB.
             </p>
           </div>
-          <div className="col-4 mt-3 pt-2 about-detail">
+          <div className="col-4 pt-2 about-detail">
             <b>Detail</b>
             <p>
               <b>Name: </b>Shubham Kumar Maurya
@@ -50,7 +50,7 @@ const About = () => {
                 </p>
                 <p>
                   <b>Framework: </b>
-                  <span className="about-skills">express js, Bootstrap, Laravel </span>
+                  <span className="about-skills">express js, Bootstrap, Laravel,  Tailwind </span>
                 </p>
                 <p>
                   <b>Library/ Tool: </b>
